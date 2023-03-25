@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: rgb(239, 235, 228);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #FFD900;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 27px 58px;
+
+}
+
+#logo-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+section #description {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #514988;
+  padding: 31px 58px;
+  font-family: 'Verdana';
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+}
+
+section #data {
+  width: 60%;
+}
+
+#description h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F3C61F;
+  margin-bottom: 60px;
+}
+
+#description h2 {
+  color: white;
+  font-weight: 700px;
+  font-size: 45px;
+  margin-bottom: 73px;
+}
+
+#description p {
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+section #timer {
+  background-color: white;
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #514988;
+
+}
+
+section #video {
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+  ;
+
+}
+
+button:hover {
+  background-color: #514988;
+  cursor: pointer;
+  color: #F3C61F;
+}
+
+#ingressos {
+  background-color: white;
+  width: 100%;
+}
+
+#logo {
+  width: 202px;
+  height: 63px;
+
+}
