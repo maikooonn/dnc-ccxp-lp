@@ -30,26 +30,25 @@
       </p>
     </div>
     <div id="data">
-      <div id="timer">
-        <div>
-          <h1 id="dia">00</h1>
-          <p>Dias</p>
+      <div>
+        <div class="timer">
+          <div>
+            <h1 id="dia">00D</h1>
+          </div>
+          <div>
+            <h1 id="hora">00H</h1>
+          </div>
+          <div>
+            <h1 id="minuto">00M</h1>
+          </div>
+          <div>
+            <h1 id="segundo">00S</h1>
+          </div>
         </div>
-        <div>
-          <h1 id="hora">00</h1>
-          <p>Horas</p>
-        </div>
-        <div>
-          <h1 id="minuto">00</h1>
-          <p>Minutos</p>
-        </div>
-        <div>
-          <h1 id="segundo">00</h1>
-          <p>Segundos</p>
-        </div>
+        <div id="text-timer">PARA A MAIOR CCXP DE TODOS OS TEMPOS</div>
       </div>
-      <div id="video">
-        <video width="700px" controls loop>
+      <div id="video-container">
+        <video controls loop>
           <source src="Arlequina.mp4" type="video/mp4">
         </video>
       </div>
@@ -57,12 +56,21 @@
 
   </section>
   <div id="ingressos">
-    <img src="ingresso1.svg">
-    <img src="ingresso2.svg">
-    <img src="ingresso3.svg">
-    <img src="ingresso4.svg">
-    <button>Garanta ja o seu</button>
+
+    <div class="ingressos-container">
+      <h3>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
+      <div id="img-container">
+        <img src="ingresso1.svg">
+        <img src="ingresso2.svg">
+        <img src="ingresso3.svg">
+        <img src="ingresso4.svg">
+      </div>
+    </div>
+    <div id="button-container">
+      <button>Garanta o seu!</button>
+    </div>
   </div>
+
   <script src="script.js"></script>
 
 </body>

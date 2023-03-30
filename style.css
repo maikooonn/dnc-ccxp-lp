@@ -47,6 +47,11 @@ section #description {
 
 section #data {
   width: 60%;
+  padding-right: 31px;
+  padding-left: 15px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 #description h1 {
@@ -77,38 +82,108 @@ section #data {
   margin-bottom: 60px;
 }
 
-section #timer {
+section .timer {
   background-color: white;
-  display: grid;
-  grid-auto-flow: column;
+  display: flex;
   width: 100%;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70px;
   color: #514988;
-
+  padding-top: 60px;
+  gap: 35px;
 }
 
-section #video {
-  display: grid;
-  grid-auto-flow: column;
+#text-timer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  text-align: center;
+  border: 1px solid yellow;
+  color: #E33881;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+
+#video-container {
+  display: flex;
   width: 100%;
-  ;
+}
+
+#video-container video {
+  width: 100%;
+}
+
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 550px;
+  height: 148px;
+  border-radius: 20px;
+  background-color: #514988;
+  color: white;
+  transition: 0.4s ease all;
 
 }
+
 
 button:hover {
-  background-color: #514988;
+  background-color: yellow;
   cursor: pointer;
-  color: #F3C61F;
+  color: #514988;
+  border-radius: 20px;
 }
 
 #ingressos {
   background-color: white;
   width: 100%;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+#ingressos h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #F3C61F;
+  padding-top: 16px;
+  justify-content: center;
 }
 
 #logo {
   width: 202px;
   height: 63px;
 
+}
+
+.ingressos-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#button-container {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#img-container {
+  margin-top: 10px;
 }
